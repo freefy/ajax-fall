@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+html,body{
+    width:100%;
+}
+.wrapper{
+    width:100%;
+}
+.wrapper ul{
+    width:1250px;
+    margin:0 auto;
+    border:1px solid #c3c3c3;
+}
+.wrapper ul:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+.wrapper ul li{
+    width:310px;
+    float:left;
+}
+.wrapper ul li .item{
+    width:300px;
+    margin:5px auto;
+    border:1px solid black;
+
+}
+.wrapper ul li img{
+    width:290px;
+    padding:5px 5px 0;
+}
+.wrapper ul li p{
+    width:290px;
+    margin: 0 auto;
+}
